@@ -1,0 +1,11 @@
+// .eslintrc.json
+{
+    "extends": "next/core-web-vitals",
+    "rules": {
+      // Add your custom rules here
+      "react/no-unescaped-entities": "warn",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  }
+  

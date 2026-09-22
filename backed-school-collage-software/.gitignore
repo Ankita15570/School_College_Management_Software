@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+error.log
+combined.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# AWS Credentials and Config
+aws-credentials.json
+aws-config.json
+.s3cfg
+
+# MongoDB Local Data (if running locally)
+mongod.lock
+data/
+*.bak
+
+# Build Artifacts
+dist/
+build/
+coverage/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+*.swp
+*.swo
+
+# Test Artifacts
+test-results/
+coverage/
+.nyc_output/
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+*.log.gz
+
+# Local Development
+*.local
+*.dev

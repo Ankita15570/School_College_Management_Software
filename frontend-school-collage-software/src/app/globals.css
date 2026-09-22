@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+button,
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/* Styles for desktop only (min-width 1025px and above) */
+.desktop-only-style {
+  margin-left: 18%;
+  margin-top: 4%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.active-link {
+  background: linear-gradient(135deg, #ef7e20, #ff9b50);
+  box-shadow: 0 4px 15px rgba(239, 126, 32, 0.3);
+  transform: translateX(5px);
+  color: #ffffff !important;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.inactive-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff !important;
+  transition: all 0.3s;
+}
+
+.inactive-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(5px);
+}
+
+.active-link {
+  background-color: #ef7e20 !important;
+  font-weight: bold;
+}
+.inactive-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active-link {
+  background-color: #ef7e20 !important;
+  font-weight: bold;
+}
+.inactive-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-bar-auth {
+  background: #1a3159;
+  height: 67px;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+/* Styles for mobile and tablet only (max-width 1024px) */
+@media (max-width: 1024px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  .desktop-only-style {
+    margin-left: 0% !important;
+    margin-top: 0% !important;
+  }
+  .title-hari-om {
+    text-align: center;
+  }
+  .card .d-flex > svg {
+    margin-right: 0 !important;
+  }
+
+  .input-lable-box {
+    margin-top: 5px !important;
+  }
+  .modal-dialog {
+    backdrop-filter: blur(2px);
+    z-index: 1040;
+    background-color: rgba(127, 127, 127, 0.09);
+  }
+  .main-layout-mobile {
+    margin-top: 13%;
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+  .d-flex.w-100 {
+    width: 100% !important;
+    margin: 0.5rem 0;
+  }
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    text-align: center;
+  }
+  .form-select {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 1rem;
+  }
+  .table-responsive {
+    font-size: 0.9rem;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+  }
+}
